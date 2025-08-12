@@ -708,7 +708,6 @@ a {
 }
 
 .form_input:focus + svg {
-  border-color: #4d5ae5;
   fill: #4d5ae5;
 }
 
