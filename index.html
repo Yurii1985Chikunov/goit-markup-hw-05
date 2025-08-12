@@ -470,6 +470,26 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="subscribe_txt">Subscribe</p>
+          <form class="form_sub" action="">
+            <label class="label_sub" for="sub-name"></label>
+
+            <input
+              class="input_sub"
+              id="sub-name"
+              name="sub-name"
+              type="email"
+              placeholder="E-mail"
+            />
+            <button class="button_sub" type="submit">
+              Subscribe
+              <svg class="icon_sub" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -485,15 +505,15 @@
 
         <form>
           <div class="form_other">
-            <label class="form_label" for="user_name"> Name </label>
+            <label class="form_label" for="user-name"> Name </label>
             <div class="form_icon">
               <input
                 class="form_input"
-                id="user_name"
-                name="user_name"
+                id="user-name"
+                name="user-name"
                 type="text"
               />
-              <svg class="" width="18" height="18">
+              <svg class="icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-name"></use>
               </svg>
             </div>
@@ -508,7 +528,7 @@
                 name="user_phone"
                 type="tel"
               />
-              <svg class="" width="18" height="18">
+              <svg class="" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -523,7 +543,7 @@
                 name="user_email"
                 type="email"
               />
-              <svg class="" width="18" height="18">
+              <svg class="" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
@@ -540,10 +560,11 @@
           </div>
 
           <div class="modal_check">
-            <input type="checkbox" id="" />
-            <label class="">
-              <span class="">
-                <svg class="" width="10" height="8">
+            <input class="visually-hidden" type="checkbox" id="check_in" />
+
+            <label class="label_check" for="check_in">
+              <span class="check_span">
+                <svg class="icon_check" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
