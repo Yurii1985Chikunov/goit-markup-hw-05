@@ -756,10 +756,11 @@ a {
   color: #8e8f99;
 }
 
-#user-privacy:checked ~ .label_check > .check_span {
+.privacy:checked ~ .label_check > .check_span {
   border-radius: 2px;
   background-color: #404bbf;
-  border: 1px solid #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .check_span {
@@ -778,6 +779,10 @@ a {
 
 .icon_check {
   fill: #f4f4fd;
+}
+
+.policy {
+  color: #4d5ae5;
 }
 
 .modal_button {
