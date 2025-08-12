@@ -524,6 +524,7 @@ a {
 }
 
 .input_sub {
+  padding-left: 16px;
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 4px;
@@ -545,7 +546,6 @@ a {
   flex-direction: row;
   cursor: pointer;
   border: none;
-  gap: 16px;
 
   border-radius: 4px;
   padding: 8px 16px;
@@ -564,6 +564,7 @@ a {
 }
 
 .icon_sub {
+  margin-left: 16px;
   fill: #fff;
 }
 
