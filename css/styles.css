@@ -707,7 +707,7 @@ a {
   border-color: #4d5ae5;
 }
 
-.form_input:focus ~ svg {
+.form_input:focus + svg {
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
@@ -751,7 +751,7 @@ a {
   color: #8e8f99;
 }
 
-.check_span {
+.span_check {
   fill: transparent;
   display: inline-flex;
   justify-content: center;
@@ -765,7 +765,7 @@ a {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.privacy:checked ~ .label_check > .check_span {
+.checkbox:checked + .label_check > .span_check {
   border-radius: 2px;
   background-color: #404bbf;
   border: none;
@@ -776,7 +776,8 @@ a {
   fill: #f4f4fd;
 }
 
-.policy {
+.policy_link {
+  text-decoration: underline;
   color: #4d5ae5;
 }
 
